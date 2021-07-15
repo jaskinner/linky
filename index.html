@@ -36,8 +36,13 @@
 </head>
 
 <body>
+    <div id="banner">
+        <a href="https://shop.fasteronfire.com">
+            Shop at our new merch store!
+        </a>
+    </div>
 
-    <div class="container">
+    <div class="container first">
         <div class="col-xs-12">
             <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
                 <img class="backdrop linktree">
@@ -132,6 +137,14 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+            document.getElementById('banner').classList.add('open');
+            document.getElementsByClassName('first')[0].classList.add('pushed');
+        })
+
+    </script>
 
 
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
