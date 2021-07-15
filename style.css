@@ -87,10 +87,14 @@ h6 {
 .linktree {
     width: 120px;
     height: 120px;
-    background-image: url("./images/faster-on-fire-promo.jpeg");
+    background-image: url("./images/faster-on-fire-promo-small.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+
+.block {
+    padding-bottom: 30px; display: flex; justify-content: space-evenly;flex-wrap: wrap;
 }
 
 ul.social-links {
@@ -101,10 +105,11 @@ ul.social-links {
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
+    flex-wrap: wrap;
 }
 
 ul.social-links li {
-    margin: 1rem;
+    padding: 1rem 2rem;
 }
 
 ul.social-links li a {
